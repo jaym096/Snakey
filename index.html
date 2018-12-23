@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Snakes Game</title>
+		<style>
+			canvas
+			{
+				display: block;
+				margin: 0 auto;
+			}
+			.btn 
+			{
+				position: relative;
+				bottom: 595px;
+				left: 755px;
+    			border: none;
+    			color: white;
+    			padding: 14px 28px;
+    			font-size: 16px;
+    			cursor: pointer;
+			}
+			.refresh {background-color: #4DB6AC;} /* Blue */
+			.refresh:hover {background: #4DB6AC;}
+
+		</style>
+	</head>
+	<canvas id="snake" width="650" height="608"></canvas>
+	<script src="snake.js"></script>
+	<body>
+		<button class="btn refresh" onClick="window.location.reload()">New Game!</button>
+	</body>
+</html>
